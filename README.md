@@ -2,6 +2,12 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
 
+# angular-devtools
+
+[![codecov](https://codecov.io/gh/vitaliibessarab/angular-devtools/branch/master/graph/badge.svg)](https://codecov.io/gh/vitaliibessarab/angular-devtools)
+
+A simple Angular project for demonstrating devtools and CI integrations.
+
 ## Development server
 
 To start a local development server, run:
