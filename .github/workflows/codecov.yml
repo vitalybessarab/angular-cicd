@@ -12,6 +12,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
@@ -20,8 +21,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Chrome deps for headless
-        run: sudo apt-get install -y libnss3 libatk-bridge2.0-0 libgtk-3-0 libxss1 libasound2
+      - name: Install Chrome dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libatk-bridge2.0-0 libgtk-3-0 libxss1
 
       - name: Run tests with coverage
         run: npm run test -- --watch=false --code-coverage
