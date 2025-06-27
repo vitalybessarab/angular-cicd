@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.scss'
 })
 export class App {
-  protected title = 'angular-release';
+  protected title = 'angular-release-0.0.0';
 }
