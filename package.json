@@ -1,5 +1,5 @@
 {
-  "name": "angular-release",
+  "name": "angular-cicd",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",

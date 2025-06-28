@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-release": {
+    "angular-cicd": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-release:build:production"
+              "buildTarget": "angular-cicd:build:production"
             },
             "development": {
-              "buildTarget": "angular-release:build:development"
+              "buildTarget": "angular-cicd:build:development"
             }
           },
           "defaultConfiguration": "development"
