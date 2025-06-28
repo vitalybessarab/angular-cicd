@@ -32,6 +32,9 @@ jobs:
       - name: ✅ Debug coverage directory
         run: ls -R coverage
 
+      - name: ✅ Verify coverage-final.json exists
+        run: ls -l coverage/angular-cicd/coverage-final.json
+
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
