@@ -4,7 +4,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 # Codecov
 
-[![codecov](https://codecov.io/gh/vitaliibessarab/angular-devtools/branch/master/graph/badge.svg)](https://codecov.io/gh/vitaliibessarab/angular-devtools)
+[![codecov](https://codecov.io/gh/vitalybessarab/angular-cicd/branch/master/graph/badge.svg)](https://codecov.io/gh/vitalybessarab/angular-cicd)
 
 A simple Angular project for demonstrating devtools and CI integrations.
 
