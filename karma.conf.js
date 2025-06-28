@@ -16,7 +16,7 @@ module.exports = function (config) {
       dir: require('path').join(__dirname, './coverage'),
       subdir: 'angular-cicd',
       reporters: [
-        { type: 'json' },
+        { type: 'json', subdir: '.', file: 'coverage-final.json' },
         { type: 'text-summary' },
         { type: 'html' } // optional, for local viewing
       ]
