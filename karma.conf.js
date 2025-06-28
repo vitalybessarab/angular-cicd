@@ -12,16 +12,12 @@ module.exports = function (config) {
     client: {
       clearContext: false
     },
-    coverageReporter: {
-      dir: require('path').join(__dirname, './coverage'),
-      subdir: 'angular-cicd',
-      reporters: [
-        { type: 'html' },
-        { type: 'text-summary' },
-        { type: 'json', file: 'coverage-final.json' }
-      ]
+    coverageIstanbulReporter: {
+      dir: require('path').join(__dirname, 'coverage'),
+      reports: ['json', 'html', 'text-summary'],
+      fixWebpackSourcePaths: true
     },
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress', 'coverage-istanbul'],
     browsers: ['ChromeHeadlessNoSandbox'],
     customLaunchers: {
       ChromeHeadlessNoSandbox: {
