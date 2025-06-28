@@ -14,8 +14,12 @@ module.exports = function (config) {
     },
     coverageReporter: {
       dir: require('path').join(__dirname, './coverage'),
-      subdir: '.',
-      reporters: [{ type: 'json' }, { type: 'text-summary' }]
+      subdir: 'angular-release',
+      reporters: [
+        { type: 'json' },
+        { type: 'text-summary' },
+        { type: 'html' } // optional, for local viewing
+      ]
     },
     reporters: ['progress', 'coverage'],
     browsers: ['ChromeHeadlessNoSandbox'],
