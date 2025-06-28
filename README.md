@@ -2,7 +2,7 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
 
-# Codecov
+# Codecov (test1)
 
 [![codecov](https://codecov.io/gh/vitalybessarab/angular-cicd/branch/master/graph/badge.svg)](https://codecov.io/gh/vitalybessarab/angular-cicd)
 
