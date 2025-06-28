@@ -14,11 +14,11 @@ module.exports = function (config) {
     },
     coverageReporter: {
       dir: require('path').join(__dirname, './coverage'),
-      subdir: 'angular-cicd',
+      subdir: '.',
       reporters: [
         { type: 'html' },
         { type: 'text-summary' },
-        { type: 'json', subdir: '.', file: 'coverage-final.json' }
+        { type: 'json', file: 'coverage-final.json' }
       ]
     },
     reporters: ['progress', 'coverage'],
