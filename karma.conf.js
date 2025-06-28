@@ -14,7 +14,7 @@ module.exports = function (config) {
     },
     coverageReporter: {
       dir: require('path').join(__dirname, './coverage'),
-      subdir: '.',
+      subdir: 'angular-cicd',
       reporters: [
         { type: 'html' },
         { type: 'text-summary' },
